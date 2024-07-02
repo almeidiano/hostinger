@@ -31,5 +31,5 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -t rsa your_hostinger_domain.com >> ~/.ssh/known_hosts
-          rsync -av --delete build/ username@your_hostinger_domain.com:/path/to/your/application
+          ssh-keyscan -t almeidiano.dev >> ~/.ssh/known_hosts
+          rsync -av --delete build/ u515915666@almeidiano.dev/hostinger
