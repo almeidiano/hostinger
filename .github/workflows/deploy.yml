@@ -32,4 +32,4 @@ jobs:
           REMOTE_HOST: ${{ vars.REMOTE_HOST }}
           REMOTE_USER: ${{ vars.REMOTE_USER }}
           REMOTE_PORT: ${{ vars.REMOTE_PORT }}
-          TARGET: "/home/u515915666/public_html/hostinger"
+          TARGET: "/home/u515915666/domains/almeidiano.dev/public_html/hostinger"
